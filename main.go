@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"leetcodePractice/121_best_time_to_buy_and_sell_stock"
+	"leetcodePractice/two_sum_1"
 )
 
 func main() {
-	fmt.Println(besttime.MaxProfit([]int{1, 2, 5, 6, 2, 7}))
+	//	fmt.Println(besttime.MaxProfit([]int{1, 2, 5, 6, 2, 7}))
+	fmt.Println(two_sum_1.TwoSum([]int{3, 2, 4}, 6))
 }
